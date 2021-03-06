@@ -1,10 +1,12 @@
 class Greet:
+
     attr = 'Hi'
     name = 'Alexandre'
 
     def __init__(self, name, second_attr):
         self.name = name
         self.attr = second_attr
+        self.random_value = 2
 
     @classmethod
     def greet(cls):
